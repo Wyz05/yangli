@@ -1,0 +1,69 @@
+body
+{
+    text-align:center;		/* 文字居中 */
+}
+ul
+{ 
+    list-style-type:none; /* ul前面的点  */
+}
+*
+{
+    margin:0px 0px;     /* 到边框的距离 */
+	padding: 0;
+}
+.menu
+{
+    background:#404040; /* 导航条背景的颜色  */ 	
+}
+.nav
+{
+    margin:0 auto; 	/* 导航栏文字的位置  */
+    width:460px; 	/* 和文字宽度有关，不能小于文字宽度的总和  */
+    height:45px; 	/* 导航栏的高度  */
+}
+.nav li{
+	line-height: 70px;
+}
+
+.nav a
+{
+    float:left;				 /* 导航栏的位置配置 */
+    width:75px;			 /* 选中的文字块的长度  */
+    line-height:70px;		         /* 选中的文字块的高度  */
+    text-decoration: none;               /* 去掉连接下划线  */
+    font-size:15px;			 /* 字体大小 */
+    color: #FFFFFF;			 /* 字体颜色 */
+	margin-bottom: 0;
+	
+}
+.nav li a:hover
+{
+    background-color: #D8D8D8;	        /* 选中的文字块的颜色 */
+    text-decoration:none;		/* 选中时去掉连接下划线 */	
+}
+.nav li a:link{
+    text-decoration:none; /* 连接被点之后没有下划线  */
+}
+ol{
+	padding:0;
+}
+img{
+	width:100%;
+}
+body,div,ul{
+	margin: 0px;padding:0px;/*去掉导航栏和banner之间的空白间隙*/
+}
+.footer{
+	position:fixed;
+	bottom: 0px;
+	width: 100%;
+}
+
+.footer button{
+	width: 50%;
+	line-height:40px;
+	float: left;
+}
+.container-fluid{
+	margin-bottom:26px;
+}

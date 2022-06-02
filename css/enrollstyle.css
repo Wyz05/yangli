@@ -1,0 +1,26 @@
+div button{
+	margin: 10px;
+	text-align: center;
+}
+form{
+	text-align: center;
+	width:450px;
+	height:70px;
+	margin:0 auto;
+	
+}
+#myCarousel{
+	margin-top: 10px;
+}#myCarouse2,#myCarousel{
+	text-align: left;
+}
+.abc{
+	margin:90px auto;
+	width:450px;
+	height:100px;
+	text-align: center;
+
+}
+ul{
+	list-style: none;
+}

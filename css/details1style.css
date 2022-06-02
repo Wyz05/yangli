@@ -1,0 +1,27 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.carousel slide,.carousel-inner{
+	width:450px;
+	height:450px;
+	margin: 0 auto;
+}
+del{
+	font-size: small;
+	color: #080808;
+}
+.footer{
+	position:fixed;
+	bottom: 0px;
+	width: 100%;
+}
+
+.footer button{
+	width: 50%;
+	line-height:40px;
+	float: left;
+}
+.container-fluid{
+	margin-bottom:40px;
+}
